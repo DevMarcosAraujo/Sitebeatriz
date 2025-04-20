@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"; // Importação do CSS
+import "./Header.css";
+import logo from "../../assets/Logo.png"; // Ajuste o caminho conforme a estrutura do seu projeto
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ function Header() {
       <div className="container">
         {/* Logo */}
         <Link to="/" className="logo">
-        Dra Beatriz Vilela 
+          <img src={logo} alt="Logo Dra Beatriz Vilela" className="logo-img" />
         </Link>
 
         {/* Menu Desktop */}

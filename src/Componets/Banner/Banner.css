@@ -1,0 +1,98 @@
+/* Remove margens padrão do body para o banner ficar colado no topo */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ocupa toda a tela */
+.banner {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Container dos slides */
+.slides {
+  display: flex;
+  width: 300vw; /* 3 slides */
+  height: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+/* Cada slide */
+.slide {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Texto centralizado, mais para cima */
+.text-overlay {
+  position: absolute;
+  top: 40%; /* Antes era 50%, agora o texto está mais para cima */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  z-index: 2;
+  padding: 1rem;
+  width: 90%;
+  box-sizing: border-box;
+  line-height: 1.4;
+  max-height: 4.2rem;
+  overflow: hidden;
+}
+
+/* Indicadores (bolinhas) abaixo do banner */
+.indicator-buttons {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  z-index: 3;
+}
+
+.indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+.indicator.active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Animação do carrossel (não utilizada, mas deixada caso use futuramente) */
+@keyframes slideShow {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100vw); }
+  66% { transform: translateX(-200vw); }
+  100% { transform: translateX(0); }
+}
+
+/* Responsivo: ajusta texto e centraliza imagem em telas pequenas */
+@media (max-width: 488px) {
+  .text-overlay {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+
+  .slide {
+    background-position: center center; /* Centraliza a imagem no meio da tela */
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    
+  }
+}

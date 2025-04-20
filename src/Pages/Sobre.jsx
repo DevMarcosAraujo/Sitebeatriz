@@ -13,13 +13,12 @@ function Sobre() {
         <div className="texto-sobre">
           <h1>Sobre a Doutora Beatriz</h1>
           <p>
-            A Doutora Beatriz é uma profissional dedicada e apaixonada pela área da saúde. Formou-se em medicina no ano passado, conquistando reconhecimento por sua excelência acadêmica e compromisso com os pacientes. Desde os primeiros anos da graduação, demonstrou grande interesse por pesquisas clínicas, tendo participado de diversos projetos que buscavam soluções inovadoras para doenças crônicas.{" "}
+          Sou médica formada em 2024 pela Universidade Federal de Jataí (UFJ), em Goiás, e quero te contar um pouco da minha história — não só como profissional, mas como alguém que tem verdadeira paixão por cuidar.           </p>
+          <p>
+          Desde sempre, tive dentro de mim um chamado para acolher o outro. O cuidado com o próximo nunca foi apenas uma escolha profissional, mas uma expressão natural de quem eu sou. 
           </p>
           <p>
-            Durante sua residência, especializou-se em clínica médica, com foco no atendimento humanizado. É conhecida por sua empatia, escuta ativa e habilidade de criar conexões com seus pacientes. Além de sua atuação exemplar nos hospitais, Beatriz também promove ações sociais voltadas para comunidades carentes, levando cuidados básicos de saúde a locais com difícil acesso.
-          </p>
-          <p>
-            Mesmo com pouco tempo de formada, já publicou artigos científicos em revistas nacionais e internacionais, abordando temas como saúde preventiva, bem-estar emocional e terapias integrativas. Sua atuação combina conhecimento técnico com uma abordagem acolhedora e personalizada.
+          Entendo que ser médica vai muito além da técnica: é ouvir com empatia, olhar nos olhos e enxergar além dos sintomas.
           </p>
 
           {/* Imagem no canto inferior direito */}
@@ -28,10 +27,17 @@ function Sobre() {
           </div>
 
           <p>
-            Atualmente, Beatriz atua em um renomado centro médico, onde continua ampliando seus conhecimentos por meio de cursos de especialização e eventos científicos. Seu sonho é contribuir para a construção de um sistema de saúde mais justo, acessível e eficiente.
+          Durante a graduação, descobri um amor ainda maior pela Medicina quando entrei em contato com as Práticas Integrativas e Complementares (PICS) e com o poder da espiritualidade na saúde. Para mim, tudo está conectado — corpo, mente, alma e emoções. Acredito que a verdadeira cura e a prevenção nascem dessa compreensão profunda e integrada do ser humano.
           </p>
           <p>
-            Fora da medicina, ela é apaixonada por literatura, jardinagem e viagens culturais. Acredita que um bom médico é também alguém que conhece o mundo ao seu redor e se conecta com as histórias das pessoas. A trajetória da Doutora Beatriz é um exemplo inspirador de dedicação, amor pela profissão e vontade de transformar vidas através do cuidado e do conhecimento.
+          Nos meus atendimentos, procuro enxergar cada paciente como um todo: suas dores, suas histórias, suas crenças e esperanças. Estou sempre em busca de me atualizar, aprendendo com a ciência, com a prática, e também com cada pessoa que cruza o meu caminho.
+          </p>
+          
+          <p>
+          Sou comprometida com o que faço e sigo firme no propósito de oferecer uma medicina mais humana, sensível e respeitosa — uma medicina que toca, acolhe e transforma.
+          </p>
+          <p>
+          Se você chegou até aqui, quero que saiba que estou pronta para caminhar ao seu lado com escuta, cuidado e presença.
           </p>
         </div>
       </div>

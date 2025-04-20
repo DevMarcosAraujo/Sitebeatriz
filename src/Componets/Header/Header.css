@@ -30,16 +30,13 @@
   }
   
   /* Logo */
-  .logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
+  .logo-img {
+    height: 50px; /* ou o tamanho que desejar */
+    object-fit: contain;
   }
   
   .logo:hover {
-    color: #94654c; /* Verde mais claro */
+    color: #59e905; /* Verde mais claro */
   }
   
   /* Menu Desktop */
