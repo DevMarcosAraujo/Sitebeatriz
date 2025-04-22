@@ -3,15 +3,7 @@ import '../App.css'
 function Consulta() {
   const especialidades = [
     "Clínico Geral",
-    "Cardiologia",
-    "Dermatologia",
-    "Ginecologia",
-    "Ortopedia",
-    "Pediatria",
-    "Neurologia",
-    "Psiquiatria",
-    "Oftalmologia",
-    "Endocrinologia"
+    
   ];
 
   return (

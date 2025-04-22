@@ -11,12 +11,12 @@ import Contatos from "./Pages/Contatos";
 import Header from './Componets/Header/Header';
 
 
+
 function App() {
   return (
     <Router>
       <Header />
-     
-    
+
       <div className="main-content">
         <Routes>       
           <Route path="/" element={<Inicio />} />
@@ -26,7 +26,7 @@ function App() {
         </Routes>
       </div>
     
-
+    
 
     </Router>
   );

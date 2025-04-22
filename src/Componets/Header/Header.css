@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #d8b4fe; /* Verde intermediário */
+    background: #e0f2f1; /* Verde intermediário */
     box-shadow: 0 2px 10px rgba(104, 70, 43, 0.2); /* Marrom escuro com transparência */
     padding: 15px 20px;
     z-index: 1000;
@@ -36,7 +36,7 @@
   }
   
   .logo:hover {
-    color: #59e905; /* Verde mais claro */
+    color: #e0f2f1; /* Verde mais claro */
   }
   
   /* Menu Desktop */
@@ -50,20 +50,20 @@
   .desktop-menu ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: #00796b;
     font-weight: bold;
     transition: 0.3s;
   }
   
   .desktop-menu ul li a:hover {
-    color: #94654c; /* Verde pastel no hover */
+    color: #79c3f8; /* Verde pastel no hover */
     transform: scale(1.1);
   }
   
   /* Botão "Falar Comigo" */
  
   .contact-button:hover {
-    background: #94654c; /* Verde mais claro no hover */
+    background: #79c3f8; /* Verde mais claro no hover */
     transform: scale(1.1);
   }
   
@@ -80,7 +80,7 @@
     right: 15px;
     top: 55%; /* Move um pouco mais para baixo */
     transform: translateY(-50%);
-    color: white;
+    color: #00796b;
   }
   
   /* Menu Mobile */
@@ -90,7 +90,7 @@
     left: -100%; /* Antes era -100%, agora começa um pouco mais visível */
     width: 70%;
     height: 100vh;
-    background: #9bde87; /* Marrom médio */
+    background: #00796b; /* Marrom médio */
     transition: all 0.4s ease-in-out;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     padding:20px;
@@ -129,7 +129,7 @@
   }
   
   .mobile-menu ul li a:hover {
-    color: #94654c; /* Verde clarinho */
+    color: #79c3f8; /* Verde clarinho */
     transform: translateX(5px);
   }
   
@@ -142,7 +142,7 @@
     top: 20px;
     right: 20px;
     cursor: pointer;
-    color: white;
+    color: #00796b;
     transition: 0.3s;
   }
   
