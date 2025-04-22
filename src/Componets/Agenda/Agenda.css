@@ -7,7 +7,10 @@
     max-width: 900px;
     margin: 0 auto; /* Centraliza horizontalmente */
   }
-  
+  .card-link {
+    display: block;
+    text-decoration: none;
+}
   /* Estilo base dos cards */
   .card {
     background-color: white;

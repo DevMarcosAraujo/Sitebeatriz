@@ -57,87 +57,216 @@ body {
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-/* inicio do formshome */
-.formulario-consulta {
-  background: linear-gradient(135deg, #d8b4fe, #fbcfe8, #ffffff);
-  color: #fff;
-  text-align: center;
-  margin-top: 2rem;
-  border-radius: 12px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  padding: 3rem 2rem;
+/* LandingPage.css */
+.landing {
+  background-color: #f07148;
+  color: #333;
+  font-family: sans-serif;
 }
 
-.formulario-consulta h2 {
-  font-size: 2.2rem;
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-main {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-main input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.form-main button {
+  background: #be8366;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-main button:hover {
+  background: #a56e57;
+}
+
+.hero-image {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 16rem;
+}
+
+.info-box h3 {
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
-.formulario-consulta p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+.info-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.formulario-consulta form {
+.info-box input,
+.info-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  background: #2d2d2d;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.info-box button {
+  background: #f07148;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.info-box button:hover {
+  background: #d2603b;
+}
+
+.reasons {
+  background: #fff;
+  padding: 4rem 1.5rem;
+}
+
+.reasons h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.reason-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reason-list div {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: flex-start;
   gap: 1rem;
 }
 
-/* Inputs com cor clara, tamanho maior e sombra no hover */
-.formulario-consulta input {
-  padding: 1rem;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 8px;
-  width: 380px;
-  transition: box-shadow 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.reason-list svg {
+  color: #f07148;
 }
 
-.formulario-consulta input:hover,
-.formulario-consulta input:focus {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transform: scale(1.02);
-  outline: none;
+.treatments {
+  padding: 4rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Nome em uma linha */
-.formulario-consulta .name {
-  width: 150px;
-  padding: 2rem;
+.treatments h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* Email quebra linha */
-.formulario-consulta .email {
+.treatment-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.treatment-list ul {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+}
+
+.treatment-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.treatment-list li svg {
+  color: #f07148;
+}
+
+.treatment-list img {
+  flex: 1;
   width: 100%;
-  max-width: 600px;
-  padding: 1rem;
+  max-width: 500px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Botão com destaque também */
-.formulario-consulta button {
-  background-color: #007bff;
-  border: none;
+.footer {
+  background: #be8366;
+  padding: 2rem 1.5rem;
+  text-align: center;
   color: #fff;
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
-  margin-top: 1rem;
 }
 
-.formulario-consulta button:hover {
-  background-color: #005ecb;
-  transform: scale(1.03);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+.footer h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
+
+
+/* Fim  do formshomer*/
 /* inicio pagina sobre*/
 .sobre-container {
   display: flex;
