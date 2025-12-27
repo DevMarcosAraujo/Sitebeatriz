@@ -33,3 +33,44 @@ marrom
 ✅ Fundo suave: #9bde87 (Verde pastel)
 ✅ Destaques suaves: #beffa8 (Verde muito claro)
 ✅ Fundo do menu mobile: #94654c (Marrom médio)
+
+# Site Beatriz 🌐✨
+
+Este é um projeto de **site institucional desenvolvido em React com Vite**, focado em performance, organização de componentes e fácil manutenção.  
+O projeto possui uma estrutura modular, separando **componentes**, **páginas** e **assets**, facilitando a escalabilidade e futuras melhorias.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ **React**
+- ⚡ **Vite**
+- 🎨 **CSS puro**
+- 📦 **Node.js**
+- 🧩 Componentização organizada
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+sitebeatriz/
+├── public/
+├── src/
+│   ├── Components/
+│   │   ├── Agenda/
+│   │   ├── Banner/
+│   │   ├── Button/
+│   │   ├── Header/
+│   │   └── Texte/
+│   ├── Pages/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── index.css
+│   └── img1.jpg
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
